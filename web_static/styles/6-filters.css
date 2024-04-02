@@ -90,3 +90,18 @@ button {
 button:hover {
 	opacity: 90%;
 }
+@media (max-width:768px) {
+	.filters{
+		width:90%;
+		margin:0 auto;
+	}
+	button{
+		height:42px;
+		font-size: 18px;
+	}
+}
+@media (max-width: 425px) {
+	button{
+		font-size: 14px;
+	}
+}
